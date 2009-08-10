@@ -1,0 +1,16 @@
+use strict;
+use inc::Module::Install;
+name 'CPANPLUS-Config-BaseEnv';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/CPANPLUS/Config/BaseEnv.pm';
+abstract_from 'lib/CPANPLUS/Config/BaseEnv.pm';
+readme_from 'lib/CPANPLUS/Config/BaseEnv.pm';
+license 'perl';
+auto_license holder => 'Chris Williams and Jos Boumans';
+perl_version '5.006';
+build_requires 'Test::More' => 0.47;
+requires 'CPANPLUS' => '0.88';
+clean_files 't/dummy-cpanplus';
+auto_provides;
+githubmeta;
+WriteAll();

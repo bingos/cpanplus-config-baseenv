@@ -1,0 +1,33 @@
+NAME
+    CPANPLUS::Config::BaseEnv - Set the environment for the CPANPLUS base
+    dir
+
+SYNOPSIS
+      export PERL5_CPANPLUS_BASE=/home/moo/perls/conf/perl-5.8.9/
+
+DESCRIPTION
+    CPANPLUS::Config::BaseEnv is a CPANPLUS::Config file that allows the
+    CPANPLUS user to specify where CPANPLUS gets its configuration from.
+
+    Setting the environment variable "PERL5_CPANPLUS_BASE" to a path
+    location, determines where the ".cpanplus" directory will be located.
+
+METHODS
+    "setup"
+        Called by CPANPLUS::Configure.
+
+AUTHOR
+    Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+
+    Contributions and patience from Jos Boumans the CPANPLUS guy!
+
+LICENSE
+    Copyright © Chris Williams and Jos Boumans.
+
+    This module may be used, modified, and distributed under the same terms
+    as Perl itself. Please see the license that came with your Perl
+    distribution for details.
+
+SEE ALSO
+    CPANPLUS
+
