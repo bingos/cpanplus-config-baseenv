@@ -9,6 +9,7 @@ license 'perl';
 auto_license holder => 'Chris Williams and Jos Boumans';
 perl_version '5.006';
 build_requires 'Test::More' => 0.47;
+build_requires 'Env::Sanctify' => 1.04;
 requires 'CPANPLUS' => '0.88';
 auto_provides;
 githubmeta;
